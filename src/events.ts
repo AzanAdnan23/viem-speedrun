@@ -10,7 +10,7 @@ dotenv.config();
 
 const privateKey = process.env.PRIVATE_KEY;
 const account = privateKeyToAccount(privateKey as Hex);
-const contractAddress = "0xd3161fdc1ad8aee97a5a20876beeb272f89f6c69";
+const contractAddress = "0x88fadc51852b38a97b1cd89191a79e36c1b7a62b";
 
 (async () => {
   const client = await createWalletClient({
