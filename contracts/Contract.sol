@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
 
-contract Fun {
+contract Contract {
     uint public x;
 
     event XWasChanged(uint _from, uint _to);
